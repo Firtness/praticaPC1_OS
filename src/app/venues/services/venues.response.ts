@@ -1,10 +1,10 @@
 ﻿export interface VenuesResponse {
   _embedded: {
-    venues: VenueResponse[];
+    venues: VenueResource[];
   };
 }
 
-export interface VenueResponse {
+export interface VenueResource {
   name: string;
   url: string;
   timezone?: string;
